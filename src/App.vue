@@ -1,10 +1,12 @@
-<template></template>
+<template>
+  <NavBar />
+</template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Logo, NavItem } from '@/components/atoms/index'
+import { NavBar } from '@/components/molecules'
 
 export default defineComponent({
-  components: { Logo, NavItem },
+  components: { NavBar },
 })
 </script>
