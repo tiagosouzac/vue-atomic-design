@@ -1,17 +1,14 @@
 <template>
   <Container>
-    <Header />
-    <Presentation />
-    <Services />
+    <HomeTemplate />
   </Container>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Header, Presentation, Services } from '@/components/organisms'
-import { Container } from '@/components/bosons'
+import { HomeTemplate } from '@/components/templates'
 
 export default defineComponent({
-  components: { Header, Presentation, Services, Container },
+  components: { HomeTemplate },
 })
 </script>
