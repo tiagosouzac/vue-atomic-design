@@ -1,13 +1,14 @@
 <template>
   <Header />
   <Presentation />
+  <Services />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Header, Presentation } from '@/components/organisms'
+import { Header, Presentation, Services } from '@/components/organisms'
 
 export default defineComponent({
-  components: { Header, Presentation },
+  components: { Header, Presentation, Services },
 })
 </script>
