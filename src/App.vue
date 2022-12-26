@@ -1,15 +1,12 @@
 <template>
-  <Service
-    title="Front end"
-    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, amet harum esse quibusdam ratione excepturi sunt libero, laboriosam delectus laborum aspernatur incidunt voluptatibus eligendi porro! Nihil, minus quibusdam. Consequatur, rem?"
-  />
+  <Header />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Service } from '@/components/molecules'
+import { Header } from '@/components/organisms'
 
 export default defineComponent({
-  components: { Service },
+  components: { Header },
 })
 </script>
